@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono'; 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/imagen-fundo.svg');                                                                                                                                                                                                                                                                                                                                                                                                                                   
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.logo-pizza{
+    margin: 76px 0 0 96px;
+}
+
+.title h1 {
+    color: #ffffff;
+    font-size: 128px;
+    font-weight: 400;
+    margin: 76px 0 0 89px;
+    display: inline-block;
+}
+
+.content h2{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 500;
+    margin: 110px 0 0 128px;
+}
+
+.content p{
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 400;
+    margin: 28px 732px 0 128px;
+}
+
+.botao-start{
+    margin: 50px 353px 83px 359px;
+}
+.botao-start button{
+    width: 600px;
+    height: 122px;
+    background-color: #FFF;
+    color: orange;
+    border-radius: 60px;
+    font-size: 50px;
+}
+
+.content-login h2{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 500;
+    margin: 50px 0 0 128px;
+}
+
+.content-login p{
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 400;
+    margin: 28px 732px 0 128px;
+    display: inline-block;
+}
+
+.conteiner-login{
+    margin-top: 40px;
+}
+
+.login img {
+    margin: 24px 23px -30px 96px;  
+}
+
+.login p{
+    display: inline-block;
+    margin: 40px 0 3px 22px; 
+    color: #FFF;
+}
+
+button {
+    width: 875px;
+    height: 1px;
+    background: #FFF;
+    margin: 34px 482px 60px 83px;
+}
+
+.login-password img{
+    margin: 0px 23px -30px 96px;
+}
+
+.login-password p{
+    display: inline-block;
+    margin: 40px 0 3px 22px; 
+    color: #FFF;
+}
+
+.botao-entrar button{
+    width: 600px;
+    height: 100px;
+    background-color: #FFF;
+    color: orange;
+    border-radius: 60px;
+    font-size: 50px;
+}
+
+.botao-entrar p{
+    color: #FFF;
+    margin: -30px 500px 40px 297px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.no-account{
+    margin: -150px 100px 72px 1069px;
+}
+
+.no-account p{
+    color: #FFF;    
+    font-size: 20px;
+}
+
+.no-account-create{
+    margin: -20px 212px 72px 1140px;
+}
+
+.no-account-create p{
+    color: #FFF;    
+    font-size: 20px;
+}
