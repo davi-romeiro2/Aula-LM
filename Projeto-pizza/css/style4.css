@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono';
+}
+
+/* <!-- Seta usada pra sair da pagina --> */
+.seta img{
+    position: absolute;
+    margin: 20px;
+}
+/* <!-- /Seta usada pra sair da pagina/ --> */
+
+/* <!-- Parte do topo --> */
+.top-part img{
+    margin: -100px 0 0 0;
+    padding: 0;
+    height: 400px;
+    width: 100%;
+}
+
+.top-part h1{
+    font-size: 60px;
+    margin: -170px 0 0 120px;
+    color: #FFF;
+}
+/* <!-- /Parte do topo/ --> */
+
+/* <!-- Preço e descrição da pizza, a esquerda --> */
+.descricao{
+    margin: 120px 0 120px 80px;
+}
+
+.descricao h2{
+    color: chartreuse;
+    font-size: 50px;
+}
+
+.descricao p{
+    font-size: 30px;
+}
+
+.descricao img{
+    margin-top: 40px;
+}
+/* <!-- /Preço e descrição da pizza, a esquerda/ --> */
+
+/* <!-- Comentarios, a direita --> */
+.comentarios{
+    float: right;
+    margin: -500px 100px 0 0;
+}
+
+.comentarios h3{
+    font-size: 30px;
+    margin: -55px 0 50px 100px;
+    display: flex;
+}
+
+/* <!-- Primeiro comentario --> */
+.perfil-comentario{
+    position: absolute;
+    display: flex;
+}
+
+.perfil-comentario img{
+    margin: 20px 0 0 20px;
+}
+
+.perfil-comentario h3{
+    font-size: 20px;
+    margin: 40px 0 0 10px;
+}
+
+.perfil-comentario p{
+    margin: 20px 0 0 180px;
+}
+
+.content-comentario h4{
+    position: absolute;
+    margin: 90px 0 0 50px;
+}
+
+.content-comentario p{
+    font-size: 15px;
+    position: absolute;
+    margin: 120px 0 0 50px;
+}
+/* <!-- /Primeiro comentario/ --> */
+
+/* <!-- Segundo comentario --> */
+.perfil-comentario2{
+    position: absolute;
+    display: flex;
+}
+
+.perfil-comentario2 img{
+    margin: 20px 0 0 20px;
+}
+
+.perfil-comentario2 h3{
+    font-size: 20px;
+    margin: 40px 0 0 10px;
+}
+
+.perfil-comentario2 p{
+    margin: 20px 0 0 160px;
+}
+
+.content-comentario2 h4{
+    position: absolute;
+    margin: 90px 0 0 50px;
+}
+
+.content-comentario2 p{
+    font-size: 15px;
+    position: absolute;
+    margin: 120px 0 0 50px;
+}
+/* <!-- /Segundo comentario/ --> */
+
+/* <!-- Caixa cinza do fundo do comentario --> */
+.quadro button{
+    background-color: rgb(199, 199, 199);
+    width: 550px;
+    height: 200px;
+    margin-bottom: 50px ;
+    border: none;
+    border-radius: 10px;
+}
+/* <!-- /Caixa cinza do fundo do comentario/ --> */
+
+/* <!-- /Comentarios, a direita/ --> */
+
+/* <!-- Caixa de adicionar comentario --> */
+.adicione button{
+    width: 500px;
+    height: 50px;
+    margin: 0 50px 30px 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(199, 199, 199);
+}
+
+.adicione input{
+    width: 400px;
+    border: none;
+    outline: none;
+    background-color: rgb(199, 199, 199);
+}
+
+.adicione img{
+    width: 35px;
+    height: 35px;
+    margin: 0 0 -15px -100px;
+}
+
+.linha button{
+    position: absolute;
+    height: 1px;
+    width: 420px;
+    background-color: black;
+    margin: -40px 0 0 70px;
+    border: none;
+}
+/* <!-- /Caixa de adicionar comentario/ --> */

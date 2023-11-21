@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono';
+}
+/* <!-- Parte do topo --> */
+
+/* <!-- Seta usada pra sair da pagina --> */
+.seta img{
+    position: absolute;
+    margin: 20px;
+}
+
+.seta h1{
+    font-size: 40px;
+    position: absolute;
+    color: #FFF;
+    margin: 26px 0 0 100px;
+}
+/* <!-- /Seta usada pra sair da pagina/ --> */
+
+/*  <!-- Foto de perfil --> */
+.profile img{
+    margin: 28px 0 0 580px;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: none;
+}
+/*  <!-- /Foto de perfil/ --> */
+
+/* <!-- Background do topo --> */
+.top-part img{
+    margin: -100px 0 0 0;
+    padding: 0;
+    height: 400px;
+    width: 100%;
+}
+/* <!-- /Background do topo/ --> */
+
+/* <!-- /Parte do topo/ --> */
+
+/* <!-- Campos de inserir informações --> */
+.campos{
+    float: left;
+}
+
+.fill{
+    margin-left: 100px;
+}
+
+.fill h2{
+    margin: 30px 0 0px 0;
+}
+
+.fill input{
+    width: 600px;
+    margin: 20px 0 0 20px;
+    border: none;
+    outline: none; 
+    display: block;
+}
+
+.fill button{
+    width: 600px;
+    height: 1px;
+    background: black;
+    border: 0.5px;
+    margin: 5px 0 0 -30px;
+}
+/* <!-- /Campos de inserir informações/ --> */
+
+/* <!-- Caixa cinza a direita --> */
+.texto{
+    margin-left: 800px;
+}
+
+/* <!-- Caixa cinza a direita --> */
+.merchan button{
+    height: 600px;
+    border: none;
+    border-radius: 20px;
+    margin: 0 16px 30px 0;
+}
+
+.merchan p{
+    text-align: center;
+    margin: -120px 100px 0 50px;
+    font-size: 23px;
+}
+
+/* <!-- Botão verde de criar conta --> */
+.botao-criar button{
+    position: relative;
+    float: right;
+    margin: -150px 100px 0 0;
+    font-size: 30px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    background: rgb(0, 193, 0);
+    width: 550px;
+    height: 100px;
+}
+
+.botao-criar button:hover{
+    transform: translateY(-5%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+/* <!-- /Botão verde de criar conta/ --> */
+
+/* <!-- /Caixa cinza a direita/ --> */

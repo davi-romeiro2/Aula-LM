@@ -1,0 +1,447 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono'; 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url('../img/index3/background-black.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* <!-- Parte do topo, barra de pesquisa, bom dia, foto de perfil --> */
+.top-part-profile{
+    margin: 10px 0 3px 200px;
+}
+
+.top-part-search_bar button{
+    top: 0;
+    margin: -123px 450px 3px 0; 
+    width: 622px;
+    height: 92px;
+    border-radius: 8px;
+    background: #EEEDED;
+    font-size: 30px;
+    float: right;
+}
+
+.top-part-search_bar input{
+    border: none;
+    background:#EEEDED ;
+    outline: none;
+    font-size: 22px;
+    width: 440px;
+}
+
+.top-part-search_bar button img{
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.top-part-search_bar h2{
+    font-size: 40px;
+    margin: -150px 260px 0 962px;
+    float: right;
+}
+
+.top-part-search_bar p{
+    font-size: 19px;
+    margin: -100px 250px 0 962px;
+    float: right;
+}
+/* <!-- /Parte do topo, barra de pesquisa, bom dia, foto de perfil/ --> */
+
+/* <!-- barra que separa o topo da parte debaixo --> */
+.separate-perfil button{
+    margin-bottom: 50px;
+    width: 1519px;
+    height: 1px;
+    color: #FFF;
+}
+/* <!-- /barra que separa o topo da parte debaixo/ --> */
+
+/* <!-- Menu a direita com perfil, sobremesa e ofertas --> */
+.menu-right{
+    float: right;
+    margin-top: 30px;
+}
+/* <!-- Perfil --> */
+.first-box button{
+    padding: 120% 220px 60px 0;
+    margin-top: -78px;
+    margin-bottom: 5px;
+    background: rgb(255, 98, 0);
+    border: none;
+}
+
+.first-box button img{
+    position: absolute;
+    margin: -200px 0 0 50px;
+    width: 120px;
+    height: 120px;
+}
+
+.first-box button h2{
+    position: absolute;
+    margin: -50px 0 0 50px;
+    color: #FFF;
+}
+
+.first-box button:hover{
+    transform: translateY(-5%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+/* <!-- /Perfil/ --> */
+
+/* <!-- Sobremesas --> */
+.second-box button{
+    padding: 120% 220px 60px 0;
+    background: rgb(255, 98, 0);
+    border: none;
+    margin-bottom: 5px;
+}
+
+.second-box button img{
+    position: absolute;
+    margin: -200px 0 0 35px;
+    width: 150px;
+    height: 150px;
+}
+
+.second-box button h2{
+    position: absolute;
+    margin: -30px 0 0 40px;
+    color: #FFF;
+    height: 60px;
+}
+
+.second-box button:hover{
+    transform: translateY(-5%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+/* <!-- /Sobremesas/ --> */
+
+/* <!-- Ofertas --> */
+.third-box button{
+    padding: 130% 220px 0 0;
+    background: rgb(255, 98, 0);
+    border: none;
+}
+
+.third-box button img{
+    position: absolute;
+    margin: -220px 0 0 50px;
+    width: 120px;
+    height: 120px;
+}
+
+.third-box button h2{
+    position: absolute;
+    margin: -60px 0 0 68px;
+    color: #FFF;
+}
+
+.third-box button:hover{
+    transform: translateY(-5%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+/* <!-- /Ofertas/ --> */
+
+/* <!-- /Menu a direita com perfil, sobremesa e ofertas/ --> */
+
+/* <!-- Categorias a esquerda --> */
+.categorias h2{
+    margin: 0 0 20px 55px;
+    color: #FFF;
+}
+
+.icons-categ{
+    margin-bottom: 10px;
+}
+
+.icons-categ button{
+    margin: 10px 0 30px 70px;
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 98, 0);
+    border-radius: 10px;
+    box-shadow: rgba(1, 33, 71, 0.3) 0px 0px 0px 3px;
+}
+
+.icons-categ img{
+    width: 68px;
+    height: 68px;
+}
+
+.icons-categ button img{
+    margin-top: 10px;
+}
+
+.icons-categ button:hover{
+    transform: translateY(-5%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+/* <!-- /Categorias a esquerda/ --> */
+
+/* <!-- Primeira fileira de pizzas (favoritas) --> */
+.pizzas-fav{
+    position: absolute;
+    display: flex;
+    left: 100px;
+    top: 300px;
+    margin: 0 250px 0 100px;
+}
+
+.pizzas-fav h3{
+    position: absolute;
+    margin: -50px 0 30px 50px;
+    color: #FFF;
+}
+
+.imagens-fav{
+    display: flex;
+    margin: 0 0 0 50px;
+}
+
+.imagens-fav:hover{
+    transform: translateY(-5%);
+    transition: background-color 3.8s ease;
+}
+
+.imagens-fav button{    
+    z-index: 2;
+    margin: 90px -100px 0 0;
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background:rgb(255, 98, 0);
+    color: #FFF;
+}
+
+.imagens-fav img{
+    margin: 0 50px 0 10px;
+}
+
+.legenda button{
+    margin: 109px 0 0 -330px;
+    width: 150px;
+    height: 80px;
+    border-radius: 0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.34);
+    border-radius: 0 0 0 10px;
+}
+/* <!-- /Primeira fileira de pizzas (favoritas)/ --> */
+
+/* <!-- Segunda fileira de pizzas (recomendadas) --> */
+.pizzas-fav2{
+    position: absolute;
+    display: flex;
+    left: 10px;
+    top: 300px;
+    margin: 290px 250px 0 100px;
+}
+
+.pizzas-fav2 h3{
+    position: absolute;
+    margin: -50px 0 30px 140px;
+    color: #FFF;
+}
+
+.imagens-fav2{
+    display: flex;
+    margin: 0 0 0 110px;
+}
+
+.imagens-fav2:hover{
+    transform: translateY(-5%);
+    transition: background-color 3.8s ease;
+}
+
+.imagens-fav2 button{    
+    z-index: 2;
+    margin: 100px 0 0 0;
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background:rgb(255, 98, 0);
+    color: #FFF;
+}
+
+.imagens-fav2 img{
+    margin: 0 50px 0 10px;
+}
+
+.legenda2 button{
+    z-index: 2;
+    margin: 109px 0 0 -332px;
+    width: 150px;
+    height: 80px;
+    border-radius: 0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.34);
+    border-radius: 0 0 0 10px;
+}
+
+.pizzas-fav3{
+    position: absolute;
+    display: flex;
+    left: 10px;
+    top: 300px;
+    margin: 290px 250px 0 100px;
+}
+
+.imagens-fav3{
+    display: flex;
+    margin: 0 0 0 20px;
+}
+
+.imagens-fav3:hover{
+    transform: translateY(-5%);
+    transition: background-color 3.8s ease;
+}
+
+.imagens-fav3 button{    
+    z-index: 2;
+    margin: 100px 0 0 0;
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background:rgb(255, 98, 0);
+    color: #FFF;
+}
+
+.imagens-fav3 img{
+    margin: 0 50px 0 10px;
+}
+
+.legenda3 button{
+    z-index: 2;
+    margin: 109px 0 0 -332px;
+    width: 150px;
+    height: 80px;
+    border-radius: 0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.34);
+    border-radius: 0 0 0 10px;
+}
+
+.pizzas-fav4{
+    position: absolute;
+    display: flex;
+    left: 10px;
+    top: 300px;
+    margin: 290px 250px 0 100px;
+}
+
+.imagens-fav4{
+    display: flex;
+    margin: 0 0 0 20px;
+}
+
+.imagens-fav4:hover{
+    transform: translateY(-5%);
+    transition: background-color 3.8s ease;
+}
+
+.imagens-fav4 button{    
+    z-index: 2;
+    margin: 100px 0 0 0;
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background:rgb(255, 98, 0);
+    color: #FFF;
+}
+
+.imagens-fav4 img{
+    margin: 0 50px 0 10px;
+}
+
+.legenda4 button{
+    z-index: 2;
+    margin: 109px 0 0 -332px;
+    width: 150px;
+    height: 80px;
+    border-radius: 0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.34);
+    border-radius: 0 0 0 10px;
+}
+/* <!-- /Segunda fileira de pizzas (recomendadas)/ --> */
+
+/* <!-- Terceira fileira (bebidas) --> */
+.bebidas{
+    position: absolute;
+    gap: 380px;
+    left: 600px;
+    display: flex;
+    margin-top: -300px;
+}
+
+.imagens-bebida button img{
+    z-index: 3;
+    justify-content: center;
+}
+
+.imagens-bebida button{
+    z-index: 1;
+    margin: 10px 0px 0px -380px;
+    width: 260px;
+    height: 150px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
+    background-color: #FFF;
+    border-radius: 10px;
+    border: none;
+}
+
+.imagens-bebida button:hover{
+    transform: translateY(-5%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.legenda-bebida h3{
+    color: #FFF;
+    margin: 12px 0 30px -360px;
+}
+
+.imagens-bebida2 button img{
+    z-index: 3;
+    justify-content: center;
+    width: 110px;
+    height: 120px;
+    margin-left: 15px;
+}
+
+.imagens-bebida2 button{
+    z-index: 1;
+    margin: 75px 0px 30px -380px;
+    width: 260px;
+    height: 150px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
+    background-color: #FFF;
+    border-radius: 10px;
+    border: none;
+}
+
+.imagens-bebida2 button:hover{
+    transform: translateY(-5%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.legenda-bebida2 h3{
+    color: #FFF;
+    margin-left: -340px;
+    margin-top: 12px;
+}
+/* <!-- /Terceira fileira (bebidas)/ --> */

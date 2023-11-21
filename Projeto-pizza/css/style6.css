@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url('../img/index6/pizza-soft-colour-background-with-copy-space_519183-1605.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* <!-- Parte do topo --> */
+
+/* <!-- Seta usada pra sair da pagina --> */
+.seta img{
+    position: absolute;
+    margin: 20px;
+}
+
+.seta h1{
+    font-size: 40px;
+    position: absolute;
+    color: #FFF;
+    margin: 26px 0 0 100px;
+}
+/* <!-- /Seta usada pra sair da pagina/ --> */
+
+/*  <!-- Foto de perfil --> */
+.profile img{
+    margin: 28px 0 0 600px;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: none;
+}
+/*  <!-- /Foto de perfil/ --> */
+
+/* <!-- Botão de sair --> */
+.sair{
+    float: right;
+    margin: 30px 250px 0 0;
+}
+
+.sair button{
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    border: none;
+    border-radius: 8px;
+    background-color: #F93030;
+    color: #FFF;
+}
+
+.sair img{
+    position: absolute;
+    margin: 16px 0 0 15px;
+}   
+
+.sair p{
+    font-size: 15px;
+    margin: 0 0 0 20px;
+}
+/* <!-- /Botão de sair/ --> */  
+
+.linha button{
+    margin: 220px 0 50px 0;
+    width: 1519px;
+    height: 3px;
+    border: none;
+    background-color: #FFF;
+}
+
+/* <!-- Background do topo --> */
+
+/* <!-- /Background do topo/ --> */
+
+/*  <!-- Nome e estado --> */
+.content{
+    text-align: center;
+    margin: 0 60px 0 0;
+}
+/*  <!-- /Nome e estado/ --> */
+
+/* <!-- Card de informações --> */
+.info{
+    margin: 80px 0 30px 500px;
+}
+
+.info button{
+    width: 500px;
+    height: 100px;
+    border-radius: 8px;
+    border-color: #F27706;
+    margin: -40px 0 0 0;
+}
+
+.info img{
+    position: absolute;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: -30px 350px -50px 0;
+}
+
+.conteudo-info{
+    position: relative;
+    margin: -20px 0 -20px 0;
+}
+
+.conteudo-info p{
+    font-size: 22px;
+    margin: 0 20px 0 0;
+}
+/* <!-- /Card de informações/ --> */

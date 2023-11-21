@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono'; 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/index2/imagen-fundo.svg');                                                                                                                                                                                                                                                                                                                                                                                                                                   
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/* <!-- Titulo com a logo da pizzaria --> */
+.title h1 {
+    color: #ffffff;
+    font-size: 90px;
+    font-weight: 400;
+    margin: 0 0 50px 150px;
+    display: inline-block;
+}
+
+.title img{
+    width: 130px;
+    height: 130px;
+    margin: 36px 0 0 96px;
+}
+/* <!-- /Titulo com a logo da pizzaria/ --> */
+
+/* <!-- Conteudo de acesso a conta --> */
+.content-login{
+    float: right;
+    margin: -300px 0 0 0;
+}
+.content-login h2{
+    color: #FFF;
+    font-size: 44px;
+    font-weight: 5000;
+    margin: 10px 350px 0 128px;
+}
+
+.content-login p{
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 400;
+    margin: 28px 120px 0 128px;
+    display: inline-block;
+}
+/* <!-- /Conteudo de acesso a conta/ --> */
+
+/* <!-- Botões e itens para escrever o email --> */
+.conteiner-login{
+    margin-top: 0;
+}
+
+.login img {
+    margin: 24px 23px 0 96px; 
+    width: 50px;
+    height: 50px;
+}
+
+.login input{
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: rgba(250, 0, 250, 0);
+    box-shadow: 0 4px 0 #d6bcbc00;
+    margin: 0 0 0 22px; 
+    color: white;
+}
+
+.login ::placeholder{
+    color: #FFF;
+    text-shadow: 0 0 0.3em rgb(5, 5, 5);
+}
+
+.login button {
+    border: none;
+    width: 600px;
+    height: 1px;
+    background: #FFF;
+    margin: 0 482px 60px 83px;
+}
+/* <!-- /Botões e itens para escrever o email/ --> */
+
+/* <!-- Botões e itens para escrever a senha --> */
+.login-password img{
+    margin: 24px 23px 0 96px;
+    width: 50px;
+    height: 50px;
+}
+
+.login-password input{
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: rgba(250, 0, 250, 0);
+    box-shadow: 0 4px 0 #d6bcbc00;
+    margin: 0 0 0 22px; 
+    color: white;
+}
+
+.login-password ::placeholder{
+    color: #FFF;
+    text-shadow: 0 0 0.3em rgb(5, 5, 5);
+}
+
+.login-password button{
+    border: none;
+    width: 600px;
+    height: 1px;
+    background: #FFF;
+    margin: -100px 482px 60px 83px;
+}
+/* <!-- /Botões e itens para escrever a senha/ --> */
+
+/* <!-- Botão de entrar e esqueci senha --> */
+.botao-entrar button{
+    width: 500px;
+    height: 100px;
+    background-color: #FFF;
+    color: orange;
+    border-radius: 30px;
+    font-size: 50px;
+    border: none;
+    margin: 0 0 40px 110px;
+}
+
+.botao-entrar button:hover{
+    transform: translateY(-5%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.botao-entrar p{
+    color: #FFF;
+    margin: -30px 500px 20px 260px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+/* <!-- /Botão de entrar e esqueci senha/ --> */
+
+/* <!-- Texto ainda não tem conta --> */
+.criar-conta{
+    margin-top: -180px;
+}
+
+.no-account{
+    margin: -150px 200px 72px 800px;
+    display: flex;
+}
+
+.no-account p{
+    color: #FFF;    
+    font-size: 20px;
+}
+/* <!-- /Texto ainda não tem conta/ --> */
+
+/* <!-- Texto criar conta --> */
+.no-account-create{
+    margin: -30px 212px 72px 985px;
+}
+
+.no-account-create p{
+    color: #FFF;    
+    font-size: 20px;
+}
+
+.no-account-create a{
+    text-decoration: none;
+}
+
+.no-account-create p:hover{
+    color: purple;
+}
+/* <!-- /Texto criar conta/ --> */
